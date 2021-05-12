@@ -1,0 +1,19 @@
+Extra Example 1a:
+- Client connects to the Server and sends some text.
+- Server switches that text to ALL CAPS and sends it back to the Client.
+- Program ends when Client types in "EXIT" (or "exit").
+
+Extra Example 1b:
+- Client connects to the Server and sends some text.
+- Server reverts that text backwards and sends it back to the Client.
+- Program ends when Client types in "EXIT" (or "exit").
+
+Extra Example 2a:
+- Client connects to the Server and is asked to guess a number from 1 to 20.
+- Each Client gets their own secret number to guess.
+
+Extra Example 2b:
+- Client connects to the Server and is asked to guess a number from 1 to 20.
+- All Clients are going after the same number.
+- Clients try to guess a number as long as the number has not been guessed yet.
+- Once one of the Clients guesses the secret number, all other Clients can't guess anymore. Insted, the next time they send their guess, they're told that the number is already out.
